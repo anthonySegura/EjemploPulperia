@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D90881F71D64E88100CC6A21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90881F61D64E88100CC6A21 /* AppDelegate.swift */; };
+		D90881FC1D64E88100CC6A21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D90881FA1D64E88100CC6A21 /* Main.storyboard */; };
+		D90881FE1D64E88100CC6A21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D90881FD1D64E88100CC6A21 /* Assets.xcassets */; };
+		D90882011D64E88100CC6A21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D90881FF1D64E88100CC6A21 /* LaunchScreen.storyboard */; };
+		D908820C1D64E88100CC6A21 /* PulperiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908820B1D64E88100CC6A21 /* PulperiaTests.swift */; };
+		D90882171D64E88100CC6A21 /* PulperiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90882161D64E88100CC6A21 /* PulperiaUITests.swift */; };
+		D90882271D64ECD600CC6A21 /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90882261D64ECD600CC6A21 /* Producto.swift */; };
+		D96B18531D64F04300DA345C /* ListaProductosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96B18521D64F04300DA345C /* ListaProductosTableViewController.swift */; };
+		D96B18571D65133A00DA345C /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = D96B18551D65133A00DA345C /* cancel.png */; };
+		D96B18581D65133A00DA345C /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = D96B18561D65133A00DA345C /* save.png */; };
+		D96B185A1D65153800DA345C /* AgregarProductoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96B18591D65153800DA345C /* AgregarProductoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D90882081D64E88100CC6A21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D90881EB1D64E88100CC6A21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D90881F21D64E88100CC6A21;
+			remoteInfo = Pulperia;
+		};
+		D90882131D64E88100CC6A21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D90881EB1D64E88100CC6A21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D90881F21D64E88100CC6A21;
+			remoteInfo = Pulperia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D90881F31D64E88100CC6A21 /* Pulperia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pulperia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90881F61D64E88100CC6A21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D90881FB1D64E88100CC6A21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D90881FD1D64E88100CC6A21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D90882001D64E88100CC6A21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D90882021D64E88100CC6A21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D90882071D64E88100CC6A21 /* PulperiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulperiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D908820B1D64E88100CC6A21 /* PulperiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulperiaTests.swift; sourceTree = "<group>"; };
+		D908820D1D64E88100CC6A21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D90882121D64E88100CC6A21 /* PulperiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulperiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90882161D64E88100CC6A21 /* PulperiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulperiaUITests.swift; sourceTree = "<group>"; };
+		D90882181D64E88100CC6A21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D90882261D64ECD600CC6A21 /* Producto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Producto.swift; sourceTree = "<group>"; };
+		D96B18521D64F04300DA345C /* ListaProductosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaProductosTableViewController.swift; sourceTree = "<group>"; };
+		D96B18551D65133A00DA345C /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
+		D96B18561D65133A00DA345C /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save.png; sourceTree = "<group>"; };
+		D96B18591D65153800DA345C /* AgregarProductoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgregarProductoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D90881F01D64E88100CC6A21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90882041D64E88100CC6A21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D908820F1D64E88100CC6A21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D90881EA1D64E88100CC6A21 = {
+			isa = PBXGroup;
+			children = (
+				D90881F51D64E88100CC6A21 /* Pulperia */,
+				D908820A1D64E88100CC6A21 /* PulperiaTests */,
+				D90882151D64E88100CC6A21 /* PulperiaUITests */,
+				D90881F41D64E88100CC6A21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D90881F41D64E88100CC6A21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D90881F31D64E88100CC6A21 /* Pulperia.app */,
+				D90882071D64E88100CC6A21 /* PulperiaTests.xctest */,
+				D90882121D64E88100CC6A21 /* PulperiaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D90881F51D64E88100CC6A21 /* Pulperia */ = {
+			isa = PBXGroup;
+			children = (
+				D96B18541D65131900DA345C /* images */,
+				D90881F61D64E88100CC6A21 /* AppDelegate.swift */,
+				D90881FA1D64E88100CC6A21 /* Main.storyboard */,
+				D90881FD1D64E88100CC6A21 /* Assets.xcassets */,
+				D90881FF1D64E88100CC6A21 /* LaunchScreen.storyboard */,
+				D90882021D64E88100CC6A21 /* Info.plist */,
+				D90882261D64ECD600CC6A21 /* Producto.swift */,
+				D96B18521D64F04300DA345C /* ListaProductosTableViewController.swift */,
+				D96B18591D65153800DA345C /* AgregarProductoViewController.swift */,
+			);
+			path = Pulperia;
+			sourceTree = "<group>";
+		};
+		D908820A1D64E88100CC6A21 /* PulperiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				D908820B1D64E88100CC6A21 /* PulperiaTests.swift */,
+				D908820D1D64E88100CC6A21 /* Info.plist */,
+			);
+			path = PulperiaTests;
+			sourceTree = "<group>";
+		};
+		D90882151D64E88100CC6A21 /* PulperiaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D90882161D64E88100CC6A21 /* PulperiaUITests.swift */,
+				D90882181D64E88100CC6A21 /* Info.plist */,
+			);
+			path = PulperiaUITests;
+			sourceTree = "<group>";
+		};
+		D96B18541D65131900DA345C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D96B18551D65133A00DA345C /* cancel.png */,
+				D96B18561D65133A00DA345C /* save.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D90881F21D64E88100CC6A21 /* Pulperia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D908821B1D64E88100CC6A21 /* Build configuration list for PBXNativeTarget "Pulperia" */;
+			buildPhases = (
+				D90881EF1D64E88100CC6A21 /* Sources */,
+				D90881F01D64E88100CC6A21 /* Frameworks */,
+				D90881F11D64E88100CC6A21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pulperia;
+			productName = Pulperia;
+			productReference = D90881F31D64E88100CC6A21 /* Pulperia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D90882061D64E88100CC6A21 /* PulperiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D908821E1D64E88100CC6A21 /* Build configuration list for PBXNativeTarget "PulperiaTests" */;
+			buildPhases = (
+				D90882031D64E88100CC6A21 /* Sources */,
+				D90882041D64E88100CC6A21 /* Frameworks */,
+				D90882051D64E88100CC6A21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D90882091D64E88100CC6A21 /* PBXTargetDependency */,
+			);
+			name = PulperiaTests;
+			productName = PulperiaTests;
+			productReference = D90882071D64E88100CC6A21 /* PulperiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D90882111D64E88100CC6A21 /* PulperiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D90882211D64E88100CC6A21 /* Build configuration list for PBXNativeTarget "PulperiaUITests" */;
+			buildPhases = (
+				D908820E1D64E88100CC6A21 /* Sources */,
+				D908820F1D64E88100CC6A21 /* Frameworks */,
+				D90882101D64E88100CC6A21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D90882141D64E88100CC6A21 /* PBXTargetDependency */,
+			);
+			name = PulperiaUITests;
+			productName = PulperiaUITests;
+			productReference = D90882121D64E88100CC6A21 /* PulperiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D90881EB1D64E88100CC6A21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Tecnologico de Costa Rica";
+				TargetAttributes = {
+					D90881F21D64E88100CC6A21 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					D90882061D64E88100CC6A21 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D90881F21D64E88100CC6A21;
+					};
+					D90882111D64E88100CC6A21 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D90881F21D64E88100CC6A21;
+					};
+				};
+			};
+			buildConfigurationList = D90881EE1D64E88100CC6A21 /* Build configuration list for PBXProject "Pulperia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D90881EA1D64E88100CC6A21;
+			productRefGroup = D90881F41D64E88100CC6A21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D90881F21D64E88100CC6A21 /* Pulperia */,
+				D90882061D64E88100CC6A21 /* PulperiaTests */,
+				D90882111D64E88100CC6A21 /* PulperiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D90881F11D64E88100CC6A21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D96B18571D65133A00DA345C /* cancel.png in Resources */,
+				D96B18581D65133A00DA345C /* save.png in Resources */,
+				D90882011D64E88100CC6A21 /* LaunchScreen.storyboard in Resources */,
+				D90881FE1D64E88100CC6A21 /* Assets.xcassets in Resources */,
+				D90881FC1D64E88100CC6A21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90882051D64E88100CC6A21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90882101D64E88100CC6A21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D90881EF1D64E88100CC6A21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90881F71D64E88100CC6A21 /* AppDelegate.swift in Sources */,
+				D96B18531D64F04300DA345C /* ListaProductosTableViewController.swift in Sources */,
+				D96B185A1D65153800DA345C /* AgregarProductoViewController.swift in Sources */,
+				D90882271D64ECD600CC6A21 /* Producto.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90882031D64E88100CC6A21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D908820C1D64E88100CC6A21 /* PulperiaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D908820E1D64E88100CC6A21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90882171D64E88100CC6A21 /* PulperiaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D90882091D64E88100CC6A21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D90881F21D64E88100CC6A21 /* Pulperia */;
+			targetProxy = D90882081D64E88100CC6A21 /* PBXContainerItemProxy */;
+		};
+		D90882141D64E88100CC6A21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D90881F21D64E88100CC6A21 /* Pulperia */;
+			targetProxy = D90882131D64E88100CC6A21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D90881FA1D64E88100CC6A21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D90881FB1D64E88100CC6A21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D90881FF1D64E88100CC6A21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D90882001D64E88100CC6A21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D90882191D64E88100CC6A21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D908821A1D64E88100CC6A21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D908821C1D64E88100CC6A21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pulperia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.tec.Pulperia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D908821D1D64E88100CC6A21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pulperia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.tec.Pulperia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D908821F1D64E88100CC6A21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PulperiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.tec.PulperiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pulperia.app/Pulperia";
+			};
+			name = Debug;
+		};
+		D90882201D64E88100CC6A21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PulperiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.tec.PulperiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pulperia.app/Pulperia";
+			};
+			name = Release;
+		};
+		D90882221D64E88100CC6A21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PulperiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.tec.PulperiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Pulperia;
+			};
+			name = Debug;
+		};
+		D90882231D64E88100CC6A21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PulperiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.tec.PulperiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Pulperia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D90881EE1D64E88100CC6A21 /* Build configuration list for PBXProject "Pulperia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90882191D64E88100CC6A21 /* Debug */,
+				D908821A1D64E88100CC6A21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D908821B1D64E88100CC6A21 /* Build configuration list for PBXNativeTarget "Pulperia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D908821C1D64E88100CC6A21 /* Debug */,
+				D908821D1D64E88100CC6A21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D908821E1D64E88100CC6A21 /* Build configuration list for PBXNativeTarget "PulperiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D908821F1D64E88100CC6A21 /* Debug */,
+				D90882201D64E88100CC6A21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D90882211D64E88100CC6A21 /* Build configuration list for PBXNativeTarget "PulperiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90882221D64E88100CC6A21 /* Debug */,
+				D90882231D64E88100CC6A21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D90881EB1D64E88100CC6A21 /* Project object */;
+}
