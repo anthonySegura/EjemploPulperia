@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		920914401D7770BD0061EEA2 /* MostrarProductoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9209143F1D7770BD0061EEA2 /* MostrarProductoViewController.swift */; };
 		D90881F71D64E88100CC6A21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90881F61D64E88100CC6A21 /* AppDelegate.swift */; };
 		D90881FC1D64E88100CC6A21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D90881FA1D64E88100CC6A21 /* Main.storyboard */; };
 		D90881FE1D64E88100CC6A21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D90881FD1D64E88100CC6A21 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9209143F1D7770BD0061EEA2 /* MostrarProductoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MostrarProductoViewController.swift; sourceTree = "<group>"; };
 		D90881F31D64E88100CC6A21 /* Pulperia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pulperia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D90881F61D64E88100CC6A21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D90881FB1D64E88100CC6A21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				D90882261D64ECD600CC6A21 /* Producto.swift */,
 				D96B18521D64F04300DA345C /* ListaProductosTableViewController.swift */,
 				D96B18591D65153800DA345C /* AgregarProductoViewController.swift */,
+				9209143F1D7770BD0061EEA2 /* MostrarProductoViewController.swift */,
 			);
 			path = Pulperia;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				D90881F71D64E88100CC6A21 /* AppDelegate.swift in Sources */,
 				D96B18531D64F04300DA345C /* ListaProductosTableViewController.swift in Sources */,
 				D96B185A1D65153800DA345C /* AgregarProductoViewController.swift in Sources */,
+				920914401D7770BD0061EEA2 /* MostrarProductoViewController.swift in Sources */,
 				D90882271D64ECD600CC6A21 /* Producto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

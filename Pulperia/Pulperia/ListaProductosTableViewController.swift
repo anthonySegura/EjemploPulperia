@@ -79,6 +79,17 @@ class ListaProductosTableViewController: UITableViewController {
         return cell
     }
     
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        //Referencia al storyboard
+        let storyboard = UIStoryboard(name: "Main", bundle : nil)
+        //Referencia a la vista a la que se va a acceder
+        let vista = storyboard.instantiateViewControllerWithIdentifier("MostrarProductoViewController") as! MostrarProductoViewController
+        vista.producto = self.listaProductos[indexPath.row]
+        //Se muestra la vista
+        self.navigationController?.pushViewController(vista, animated: true)
+        
+    }
+    
 
     /*
     // Override to support conditional editing of the table view.
